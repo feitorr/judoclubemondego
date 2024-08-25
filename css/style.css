@@ -338,11 +338,19 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-logo {
-    width: 300px;
+    width: 200px;
     float: none;
     text-align: center;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .btn.btn-primary {
+   size: 100px;
+  }
+}
+
+
 #fh5co-logo a {
   color: #fff;
 }
