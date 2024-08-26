@@ -397,7 +397,7 @@ tbody tr:nth-child(even) {
 
 @media screen and (max-width: 518px) {
   .btn.btn-primary {
-   
+   font-size: 17px !important;
   }
 }
 

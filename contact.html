@@ -118,38 +118,40 @@
 								<li><i class="icon-location-pin"></i>Rua do Codeçal, nº 4 
 									3360-324 Penacova</li>
 								<li><i class="icon-phone2"></i>969504360</li>
-								<li><i class="icon-mail"></i><a href="#">judoclubedomondego@gmail.com</a></li>
+								<li><i class="icon-mail"></i><a href="mailto:judoclubedomondego@gmail.com">judoclubedomondego@gmail.com</a></li>
 								
 							</ul>
 						</div>
 						<div class="col-md-6 animate-box">
 							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Nome">
+								<form action="mailto:judoclubedomondego@gmail.com" method="post" enctype="text/plain">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Nome" name="name">
+										</div>
 									</div>
-								</div>
-								<div class="col-md-6">
-								<div class="form-group">
-									<label for="Assunto" class="sr-only">Assunto</label>
-									<input type="name" class="form-control" id="assunto" placeholder="Assunto">
-								</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="Assunto" class="sr-only">Assunto</label>
+											<input type="text" class="form-control" id="assunto" name="subject" placeholder="Assunto">
+										</div>
 									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Messagem"></textarea>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="email" class="form-control" placeholder="Email" name="email">
+										</div>
 									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="submit" value="Enviar" class="btn btn-primary">
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea class="form-control" id="" cols="30" rows="7" placeholder="Messagem" name="message"></textarea>
+										</div>
 									</div>
-								</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="submit" value="Enviar" class="btn btn-primary">
+										</div>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -161,46 +163,7 @@
 		<footer>
 			<div id="footer">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-4 animate-box">
-							<h3 class="section-title">About Us</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-						</div>
-
-						<div class="col-md-4 animate-box">
-							<h3 class="section-title">Onde treinamos?</h3>
-							<ul class="contact-info">
-								<li><i class="icon-map-marker"></i>Escola primária EB1 de Penacova, Rua Eirinha (ao lado da biblioteca municipal) </li>
-								<li><i class="icon-phone"></i>969504360</li>
-								<li><i class="icon-envelope"></i><a href="#">judoclubedomondego@gmail.com</a></li>
-								
-							</ul>
-						</div>
-						<div class="col-md-4 animate-box">
-							<h3 class="section-title">Contacte-nos</h3>
-							<form class="contact-form">
-								<div class="form-group">
-									<label for="name" class="sr-only">Nome</label>
-									<input type="name" class="form-control" id="name" placeholder="Nome">
-								</div>
-								<div class="form-group">
-									<label for="Assunto" class="sr-only">Assunto</label>
-									<input type="name" class="form-control" id="assunto" placeholder="Assunto">
-								</div>
-								<div class="form-group">
-									<label for="email" class="sr-only">Email</label>
-									<input type="email" class="form-control" id="email" placeholder="Email">
-								</div>
-								<div class="form-group">
-									<label for="message" class="sr-only">Messagem</label>
-									<textarea class="form-control" id="message" rows="7" placeholder="Messagem"></textarea>
-								</div>
-								<div class="form-group">
-									<input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Enviar">
-								</div>
-							</form>
-						</div>
-					</div>
+					
 					<div class="row copy-right">
 						<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
