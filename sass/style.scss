@@ -1166,10 +1166,12 @@ figure {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	@include transition(.3s);
+	
 	&.btn-primary {
 		background: $brand-primary;
 		color: $brand-white;
 		border: none!important;
+		
 		border: 2px solid transparent!important;
 		&:hover, &:active, &:focus {
 			box-shadow: none;
